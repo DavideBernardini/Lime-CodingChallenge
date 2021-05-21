@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+.slogan, main {
+    font-family: 'Sen', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url(background.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 65%;
+    padding: 5%;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    text-align: center;
+}
+
+header > .logo {
+    width: 25%;
+}
+
+header > .slogan {
+    color: rgb(0, 221, 0);
+    font-size: 200%;
+    font-weight: bold;
+}
+
+header > .buttons_container {
+    background-color: rgb(0, 221, 0);
+    padding: 1%;
+    margin-top: 1%;
+}
+
+main {
+    color: white;
+}
+
+section{
+    margin-top: 2%;
+}
+
+section > .nome_monopattino {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+section > .position {
+    margin: 0.5% 0 0.5% 0;
+}
+
+section > .barra_carica {
+    padding: 1.5%;
+    border-radius: 5px;
+}
+
+section > #carica_gino22 {
+    background-color: rgb(245, 180, 83);
+    width: 35%;
+}
+
+section > #carica_mike24 {
+    background-color: rgb(30 195 30);
+    width: 60%;
+}
+
+section > #carica_fede154 {
+    background-color: rgb(190 65 65);
+    width: 15%;
+}
